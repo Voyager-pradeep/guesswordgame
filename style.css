@@ -1,0 +1,102 @@
+              body {
+                  background-color: #8A2BE2;
+                  color: #fff;
+                  font-family: Arial, sans-serif;
+                  text-align: center;
+                }
+
+                h1 {
+                    font-size: 25px;
+                    position: absolute;
+                    top: 10%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                    text-align: center;
+              }
+
+              #container {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: center;
+                  justify-content: center;
+                  height: 100vh;
+              }
+
+              #wordDisplay {
+                  font-size: 24px;
+                  margin: 10px 0;
+              }
+
+              #guesses {
+                  font-size: 18px;
+                  margin: 10px 0;
+              }
+
+              #letters {
+                  font-size: 18px;
+                  margin: 10px 0;
+              }
+
+              #guessInput {
+                  padding: 5px 10px;
+                  font-size: 16px;
+                  border: none;
+                  border-radius: 5px;
+                  margin-right: 10px;
+              }
+
+              #guessButton {
+                  padding: 5px 10px;
+                  font-size: 16px;
+                  background-color: #4B0082;
+                  color: #fff;
+                  border: none;
+                  border-radius: 5px;
+                  cursor: pointer;
+              }
+              #nextbtn{
+                                  padding: 5px 10px;
+                  font-size: 16px;
+                  background-color: #4B0082;
+                  color: #fff;
+                  border: none;
+                  border-radius: 5px;
+                  cursor: pointer;
+                  font-size: 2rem;
+                  margin-top: 20px;
+              }
+
+              #hangman {
+                  font-size: 36px;
+              }
+              @media screen and (min-width:800px){
+                      h1 {
+                  font-size: 3rem;
+                  color: white;
+                  text-align: center;
+                  padding: 20px;
+                  border-radius: 10px;
+                  white-space: nowrap; /* Prevent text from wrapping */
+                  overflow: hidden; /
+                      }
+                                    #wordDisplay {
+                  font-size: 60px;
+              }
+                            #guessInput {
+                  font-size: 26px;
+                  border-radius: 10px;
+                  margin-right: 0px;
+              }
+
+              #guessButton {
+                  padding: 6px 10px;
+                  font-size: 26px;
+                  border-radius: 10px;
+                  cursor: pointer;
+              }
+              p{
+                font-weight: bold;
+                font-size: 30px;
+              }
+
+      }
